@@ -1,6 +1,3 @@
-<<<<<<< HEAD
 <h2> JS-Button-Example </h2>
-=======
-"# JS-Button-Example" 
-D:\Code\Js Button\Screenshot 2025-11-17 235810.png
->>>>>>> 76f5e0751710f10964766045f26c8343dea05f7b
+
+<img src="https://github.com/arju-vk/JS-Button-Example/blob/1668222de1557707a38d2272295ce49b25dd4faa/Screenshot%202025-11-17%20235810.png"
