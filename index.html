@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Events Demo</title>
+  
+</head>
+<body>
+
+  <!-- Mouseover -->
+  <button onmouseover="this.style.backgroundColor='lightblue'" onmouseout="this.style.backgroundColor=''">
+    Mouse Over
+  </button>
+
+  <!-- Mouseout -->
+  <button onmouseout="this.style.backgroundColor='lightgreen'" onmouseover="this.style.backgroundColor=''">
+    Mouse Out
+  </button>
+
+  <!-- Click -->
+  <button onclick="this.style.backgroundColor='orange'">
+    Onclick
+  </button>
+
+  <!-- Double Click -->
+  <button ondblclick="this.style.backgroundColor='pink'">
+    Ondblclick
+  </button>
+
+  <!-- Focus -->
+  <input type="text" placeholder="Focus me" onfocus="this.style.backgroundColor='yellow'" onblur="this.style.backgroundColor=''">
+
+  <!-- Blur -->
+  <input type="text" placeholder="Type lowercase" onblur="this.value = this.value.toUpperCase()">
+
+</body>
+</html>
